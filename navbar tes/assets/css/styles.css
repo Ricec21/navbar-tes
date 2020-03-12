@@ -1,0 +1,53 @@
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1400;
+  height: 4.4rem;
+  background-color: rgba(0, 0, 0, .8);
+  backdrop-filter: blur(10px);
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -1rem;
+
+}
+
+.nav-list-mobile{
+  display: none;
+}
+
+.nav-link{
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 0 1rem;
+  transition: opacity .5s;
+}
+
+.nav-link:hover{
+  opacity: .7;
+  color: #fff;
+}
+
+.nav-link-apple{
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("../img/apple.svg") center no-repeat;
+}
+
+.nav-link-search{
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("../img/search.svg") center no-repeat;
+}
+
+.nav-link-bag{
+  width: 1.4rem;
+  height: 4.4rem;
+  /* background: url("/Users/Ricec/Documents/Ricec/Project/Apple/assets/img/apple.svg") center no-repeat; */
+  background: url("../img/bag.svg") center no-repeat;
+}
